@@ -1,1 +1,127 @@
-thhthththththththththkkdkdkdkdkkd
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap');
+
+/* Global reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Basic styling for HTML5 elements */
+main, section, article, aside, footer, header {
+  display: block;
+}
+
+/* Body styling */
+body {
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+h1 { font-size: 2.5rem; margin: 1.5rem 0; }
+h2 { font-size: 2rem; margin: 1.25rem 0; }
+h3 { font-size: 1.75rem; margin: 1rem 0; }
+h4 { font-size: 1.5rem; margin: 0.75rem 0; }
+h5 { font-size: 1.25rem; margin: 0.5rem 0; }
+h6 { font-size: 1rem; margin: 0.25rem 0; }
+
+/* Links */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* Header styling */
+header {
+  background: #fff;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem;
+  position: relative;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  margin-right: 1rem;
+}
+
+header li:last-child {
+  margin-right: 0;
+}
+
+/* Article styling */
+article {
+  padding: 2rem;
+  background: #fff;
+  margin: 1rem auto;
+  max-width: 960px;
+}
+
+/* Aside styling */
+aside {
+  background: #fafafa;
+  padding: 1rem;
+  border-left: 3px solid #ddd;
+}
+
+aside p {
+  background: #eaeaea;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-top: 2px solid #ddd;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+  }
+
+  header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header li {
+    margin: 0.5rem 0;
+  }
+  
+  article {
+    padding: 1rem;
+  }
+}
+

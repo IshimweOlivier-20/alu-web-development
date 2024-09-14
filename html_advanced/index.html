@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header, .footer, .section {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header, .footer {
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .header img, .footer img {
+            max-width: 150px;
+            height: auto;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .videos-list {
+            margin-bottom: 20px;
+        }
+        .videos-list img {
+            max-width: 100%;
+            height: auto;
+        }
+        .rating img {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div><a href="#"><img src="images/new_logo.png" alt="Company Logo" /></a></div>
+        <div>
+            <a href="#">Courses</a><a href="#">Pricing</a><a href="#">Login</a>
+        </div>
+    </header>
+    <main class="container">
+        <section class="section">
+            <div>
+                <h1>Education Awaits</h1>
+                <p>
+                    <span>LEARN</span>
+                    <span>EXPLORE</span>
+                    <span>ACHIEVE</span>
+                </p>
+                <button class="register-btn">Sign Up Now</button>
+            </div>
+            <div>
+                <h2><span>Learn</span> from Experts</h2>
+                <div>
+                    <div>
+                        <img src="images/expert1.png" alt="Expert 1">
+                        <h3>Alex Johnson</h3>
+                        <p>« Top Instructor » 2022</p>
+                    </div>
+                    <div>
+                        <img src="images/expert2.png" alt="Expert 2">
+                        <h3>Jamie Lee</h3>
+                        <p>Leading Educator 2021</p>
+                    </div>
+                    <div>
+                        <img src="images/expert3.png" alt="Expert 3">
+                        <h3>Jordan Smith</h3>
+                        <p>« Award-Winning Teacher » 2020</p>
+                    </div>
+                    <div>
+                        <img src="images/expert4.png" alt="Expert 4">
+                        <h3>Casey Brown</h3>
+                        <p>« Educator of the Year » 2019</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div>
+                <img src="images/testimonial_avatar.png" alt="Testimonial Avatar">
+                <div>
+                    <blockquote>
+                        « The tutorials are insightful and enjoyable. It’s the best place to master new skills!
+                    </blockquote>
+                    <p>Alex Roe</p>
+                    <p>News Anchor</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h1></h1>
+            <div>
+                <div class="videos-list">
+                    <img src="images/video1_preview.png" alt="Video 1">
+                    <h2 class="video-title">Diagonal Approach</h2>
+                    <p class="video-desc">An in-depth look at the diagonal method.</p>
+                    <div class="author">
+                        <img class="author-img" src="images/author1.png" alt="Author 1">
+                        <h3 class="author-name">Alex Johnson</h3>
+                    </div>
+                    <div class="rating">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_full.svg" alt="Star Full">
+                    </div>
+                    <p class="duration">7 mins</p>
+                </div>
+                <div class="videos-list">
+                    <img src="images/video2_preview.png" alt="Video 2">
+                    <h2 class="video-title">Melancholy Expression</h2>
+                    <p class="video-desc">Explore the nuances of a melancholic expression.</p>
+                    <div class="author">
+                        <img class="author-img" src="images/author1.png" alt="Author 1">
+                        <h3 class="author-name">Alex Johnson</h3>
+                    </div>
+                    <div class="rating">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_full.svg" alt="Star Full">
+                    </div>
+                    <p class="duration">7 mins</p>
+                </div>
+                <div class="videos-list">
+                    <img src="images/video3_preview.png" alt="Video 3">
+                    <h2 class="video-title">Natural Look</h2>
+                    <p class="video-desc">Achieve a natural look with these techniques.</p>
+                    <div class="author">
+                        <img class="author-img" src="images/author1.png" alt="Author 1">
+                        <h3 class="author-name">Alex Johnson</h3>
+                    </div>
+                    <div class="rating">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_full.svg" alt="Star Full">
+                    </div>
+                    <p class="duration">7 mins</p>
+                </div>
+                <div class="videos-list">
+                    <img src="images/video4_preview.png" alt="Video 4">
+                    <h2 class="video-title">Joyful Expression</h2>
+                    <p class="video-desc">Learn the art of a joyful expression.</p>
+                    <div class="author">
+                        <img class="author-img" src="images/author1.png" alt="Author 1">
+                        <h3 class="author-name">Alex Johnson</h3>
+                    </div>
+                    <div class="rating">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_empty.svg" alt="Star Empty">
+                        <img src="icons/star_full.svg" alt="Star Full">
+                    </div>
+                    <p class="duration">7 mins</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h1><span>Complimentary</span> Membership</h1>
+            <div>
+                <div>
+                    <img src="icons/benefit1.svg" alt="Benefit 1">
+                    <h2>Feature A</h2>
+                    <p>Benefit description goes here.</p>
+                </div>
+                <div>
+                    <img src="icons/benefit2.svg" alt="Benefit 2">
+                    <h2>Feature B</h2>
+                    <p>Benefit description goes here.</p>
+                </div>
+                <div>
+                    <img src="icons/benefit3.svg" alt="Benefit 3">
+                    <h2>Feature C</h2>
+                    <p>Benefit description goes here.</p>
+                </div>
+                <div>
+                    <img src="icons/benefit4.svg" alt="Benefit 4">
+                    <h2>Feature D</h2>
+                    <p>Benefit description goes here.</p>
+                </div>
+            </div>
+            <button class="register-btn">Sign Up Free</button>
+        </section>
+        <section class="section">
+            <h1>Frequently Asked Questions</h1>
+            <div>
+                <div>
+                    <h2>How does it function?</h2>
+                    <p>
+                        A detailed explanation of the functioning of the service.
+                    </p>
+                </div>
+                <div>
+                    <h2>What are the features?</h2>
+                    <p>
+                        An outline of the main features offered by the service.
+                    </p>
+                </div>
+                <div>
+                    <h2>What is the cost?</h2>
+                    <p>
+                        Information regarding the pricing structure and options.
+                    </p
